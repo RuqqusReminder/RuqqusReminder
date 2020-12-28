@@ -2,6 +2,17 @@
 
 A Ruqqus bot inspired by the !RemindMe one on Reddit
 
+## Features
+
+* Create a reminder in any guild
+* Reminder syntax is `/remind( )?me (\d+) (second|minute|hour|day|week|month|year)/g`
+  * i.e. `!remindme 5 hours`
+
+
+## Future work
+
+* Persistent reminder saving between runs
+
 ## Setup and Running
 
 1. Create a `.env` file with the following:
