@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha \"src/**/*.test.js\""
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "global": "^4.4.0",
+    "ruqqus-js": "^3.5.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
